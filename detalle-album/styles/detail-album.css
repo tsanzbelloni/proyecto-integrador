@@ -16,13 +16,13 @@ h1{
 h2{
     color: rgb(252, 53, 53);
     text-align: left;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: 35px;
 }
 
 img{
     width: 300px;
+    border: solid 3px black;
 }
 
 h3{

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(205, 75, 51);
+}
+
+h1{
+    font-family: Comic sans-serif;
+    text-align: center;
+    font-size: 51px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+img{
+    width: 300px;
+}
+
+h2{
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
