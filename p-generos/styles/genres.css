@@ -53,15 +53,15 @@ h1{
     font-size: 400%;
 }
 
-/* UL */
+/* GENEROS */
 
-ul{
+.generos ul {
     
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    
+
        
 }
 
