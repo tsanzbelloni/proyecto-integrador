@@ -5,18 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/detail-album.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Homerun</h1>
+        <div class="logo">
+            <img src="../img/ArMusic-white.png" alt="logo">
+        </div class="logo">
+        <nav>
+            <li><a href="">Home </a></li>
+            <li><a href="">Generos </a></li>
+            <li><a href="">Playlist</a></li>
+            <form action="../search-results/search-results.html">
+                <input type="text" name="buscar" value="" placeholder="buscar" required>
+                <button type="submit">buscar</button>
+        </nav>
     </header>
     <main>
-        <img src="../img/homerun.jpg" alt="">
-        <h2>Paulo Londra</h2>
+        <h1>Detalles del Album</h1>
+        <div class="album">
+        <h2>Homerun</h2>
+
+        <img src="../img/homerun.jpg" alt="homerun">
+        
+        <h3>Paulo Londra</h3>
         
         <article>
-            <h3>Genero:</h3>
+            <h4>Genero:</h4>
              <ul type = "circle">
                 <li>Reggeaton</li>
                 <li>Balada</li>
@@ -25,13 +42,13 @@
              </ul>
         </article>       
        <article>
-            <h3>Fecha de Lanzamiento:</h3>
+            <h4>Fecha de Lanzamiento:</h4>
             <ul type = "circle">
                 <li>23/05/2019</li>
             </ul>
        </article>
         <article>
-            <h3>Canciones:</h3>
+            <h4>Canciones:</h4>
             <ol type="1">
                 <li>Homerun</li>
                 <li>Tal Vez</li>
@@ -52,8 +69,17 @@
                 <li>Chica Paranormal</li>
                 <li>Sigan Hablando De Mi</li>
             </ol>
-        </article>            
+              
+        </article>
+    </div class="album">        
     </main>
+    <footer>
+                <img src="../img/ArMusic-white.png" alt="logo">
+        <p>Creado por:</p>
+        <li>Tomas Sanz Belloni</li>
+        <li>Felipe Sanguinetti</li>
+        <li>Delfina Delgui</li>
+    </footer>
     
 </body>
 </html>
