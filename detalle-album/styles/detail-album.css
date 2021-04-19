@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(221, 202, 186)
+    
+}
+
+
+h1{
+    color: rgb(252, 53, 53);
+    text-align: center;
+    font-size: 51px;
+    font-family: 'Cookie', cursive;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+h2{
+    color: rgb(252, 53, 53);
+    text-align: left;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    font-size: 35px;
+}
+
+img{
+    width: 300px;
+}
+
+h3{
+    color: rgb(252, 53, 53);
+}
