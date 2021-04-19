@@ -20,26 +20,24 @@ h2{
     text-decoration: underline;
 }
 
-.flex-item{ 
+
+
+.lista{ 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 img{
-    width: 221px;
-    height: 150px;
-    padding: 7px;
-    align-items: center;
+    width: 321px;
+    height: 221px;
 }
-  
-
 
 h3{
     text-align: center;
-    
-    
 }
+
+
 
 
