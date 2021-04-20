@@ -11,7 +11,6 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-around;
-
 }
 
 li{
@@ -22,8 +21,6 @@ li{
 p{
 
 	text-align: center;
-
-	
 }
 
 
@@ -35,10 +32,9 @@ header{
     justify-content: space-between;
     padding: 0 20px;
     background-color: rgb(137, 207, 216);
-}
 
 
- nav{
+nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -57,23 +53,3 @@ header a{
 
 header img{
     width: 200px;
-
-}
-
-footer{
-    
-    background-color: rgb(137, 207, 216);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-footer li, p{
-    margin: 15px;
-    font-family: 'Antonio', sans-serif;
-    font-size: 30px;
-    color: white;
-}
-
-footer img{
-    width: 200px;
-}
