@@ -75,6 +75,7 @@ footer li, p{
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
     color: white;
+    list-style-type: none;
 }
 
 footer img{

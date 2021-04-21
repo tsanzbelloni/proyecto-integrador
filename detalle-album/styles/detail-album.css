@@ -3,6 +3,12 @@
 
     
 }
+/* Resets */
+
+main a{
+    text-decoration: none;
+}
+
 /* Header */
 header li {
     list-style-type: none;
@@ -90,8 +96,11 @@ footer li, p{
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
     color: white;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 footer img{
     width: 200px;
 }
+

@@ -26,6 +26,7 @@ p{
 	
 }
 
+/*HEADER*/
 
 header{
     display: flex;
@@ -50,15 +51,19 @@ header li{
     margin: 15px;
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
+    
 }
 header a{
-    color:white
+    color:white;
+    text-decoration: none;
 }
 
 header img{
     width: 200px;
 
 }
+
+/*MAIN*/
 
 h1{
     font-family: 'Antonio', sans-serif;
@@ -77,7 +82,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-footer li, p{
+footer li, footer p{
     margin: 15px;
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
