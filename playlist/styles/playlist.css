@@ -60,6 +60,16 @@ header img{
 
 }
 
+h1{
+    font-family: 'Antonio', sans-serif;
+    color: rgb(137, 207, 216);
+    font-size: 400%;}
+
+article{
+    
+    background-color: rgb(205, 75, 51);
+}
+
 footer{
     
     background-color: rgb(137, 207, 216);
