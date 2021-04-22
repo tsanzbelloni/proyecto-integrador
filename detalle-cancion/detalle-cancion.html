@@ -1,11 +1,11 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Detalle cancion</title>
-	<link rel="stylesheet" href="./styles/detalle-cancion.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles/detalle-cancion.css">
+</head>
+<body>
 </head>
 <body>
     <header>
@@ -17,29 +17,46 @@
             <li><a href="../p-generos/genres.html">Generos </a></li>
             <li><a href="../playlist/playlist.html">Playlist</a></li>
             <form action="../search-results/search-results.html">
-                <input type="text" name="buscar" value="" placeholder="buscar" required>
-                <button type="submit">buscar</button>
+                <input type="text" name="buscar" value="" placeholder="Buscar..." required>
+                <button type="submit" class="buscar">buscar</button>
         </nav>
     </header>
+      
+      <h1>Detalle de cancion</h1>
 
-	<div class="container">
-		
-			
+      	<article>
+		 
+		 <div class="paulo">
+            <h3>Dimelo</h3>
+            <div class="ca">
+            <img src="../img/homerun.jpg" alt="Homerun">
+            <ul>
+                <li><a class="art" href="../detalle-artista/detail-artist.html">Artista:Paulo Londra</a></li>
+             	<li class="album"><a href="../detalle-album/detail-album.html">Album:Homerun</a></li> 
+                <li><a  href="https://www.youtube.com/watch?v=3GLPjp_A1tE">Video de youtube</a></li>
+                <li><a href="../playlist/playlist.html">Agregar a mi Playlist</a></li>
+                <li><a href=""><audio src="../musica/Dime.mp3" controls=""></a></li>
+                <button type="button" class="boton"><a  href="../playlist/playlist.html"> Ver playlist</a></button>
+				
+                </div class="ca">
+ 		
+            </ul>
+            
+        </div class="paulo">
+        		
 
-			<li><img src="../img/homerun.jpg" width="225" height="225">
-				<p >Dimelo</p>
-				<p>Paulo Londra</p>
-				<audio src="../musica/Dime.mp3" controls=""></li>
-	</div>
-				<p><a href="Integrador/playlist.html"></a>Playlist</p>
- <footer>
+ 		</article>
+ 	
+
+ 		
+ 	<footer>
         
-        <img src="../img/ArMusic-white.png" alt="logo">
-        <p>Creado por:</p>
-        <li>Tomas Sanz Belloni</li>
-        <li>Felipe Sanguinetti</li>
-        <li>Delfina Delgui</li>
-    </footer>
+	        <img src="../img/ArMusic-white.png" alt="logo">
+	        <p>Creado por:</p>
+	        <li>Tomas Sanz Belloni</li>
+	        <li>Felipe Sanguinetti</li>
+	        <li>Delfina Delgui</li>
+ 	</footer>
 
-
+ </body>
 </html>

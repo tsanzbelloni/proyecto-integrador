@@ -1,4 +1,10 @@
-/*HEADER*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+
 
 header{
     display: flex;
@@ -38,16 +44,33 @@ h1{
     font-size: 400%;
 }
 
-/*MAIN*/
+.buscar {
+    padding: 1px 10px;
+    background-color:white;
+    border-radius: 25px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 23px;
+    color:  rgb(137, 207, 216);
+    
 
-.container{
-
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-around;
-align-content: center;
 }
+
+input {
+    border: 0;
+    padding: 8px 20px;
+    background-color: white;
+    
+  
+}
+
+::placeholder{
+    font-family: 'Antonio', sans-serif;
+    font-size: 23px;
+    color: rgb(137, 207, 216);
+}
+
+
+/*MAIN*/
 
 li{
 
@@ -59,7 +82,100 @@ p{
 	text-align: center;
 }
 
-/*FOOTER*/
+
+
+h1{
+    font-family: 'Antonio', sans-serif;
+    color: rgb(137, 207, 216);
+    font-size: 400%;}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 51px;
+    font-family: 'Cookie', cursive;
+    }
+
+article{
+    
+    background-color: rgb(205, 75, 51);
+}
+
+
+article p{
+
+
+	font-family: 'Arial';
+}
+
+.ca{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+   }
+
+
+.paulo h2{
+    text-align: center;
+    font-size: 70px;
+    justify-content: space-between;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.paulo h3{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cookie', cursive;
+	
+}
+.paulo img{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.paulo a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+	
+}
+.paulo ul{
+    text-align:left;
+    font-family: Arial;
+    font-size: 20px;
+
+}
+
+ 
+
+audio{
+
+margin-top:  10px;
+}
+
+
+
+.boton {
+
+
+	padding: 10px 30px;
+	background-color: black;
+	border-radius: 25px;
+
+	
+
+}
+
+.boton a{
+
+	color: white;
+	text-decoration: none;
+	font-family: 'Arial';
+}
+
+
 
 footer{
     
