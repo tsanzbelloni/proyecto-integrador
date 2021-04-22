@@ -108,40 +108,39 @@ article p{
 	font-family: 'Arial';
 }
 
-.ca{
+.foto{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 
    }
 
-
-.paulo h2{
-    text-align: center;
-    font-size: 70px;
-    justify-content: space-between;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-
-}
-.paulo h3{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Cookie', cursive;
-	
-}
-.paulo img{
+.foto img{
     width: 25%;
     border-radius: 10px;
     margin-left: 10px;
 
 }
-.paulo a{
+
+
+
+}
+
+ .head h2{
+    
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cookie', cursive;
+	
+}
+
+.foto a{
     color: black;
     text-decoration: none;
     font-weight: bolder;
 	
 }
-.paulo ul{
+.foto ul{
     text-align:left;
     font-family: Arial;
     font-size: 20px;
@@ -195,3 +194,4 @@ footer li, footer p{
 footer img{
     width: 200px;
 }
+
