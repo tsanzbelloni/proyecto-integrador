@@ -1,0 +1,175 @@
+<<<<<<< HEAD:detalle cancion/styles/detalle cancion.css
+
+*{
+    box-sizing: border-box;
+}
+
+=======
+/*HEADER*/
+>>>>>>> 682bb0df3ee2666bf79e84dc43cf725b00d290ec:detalle-cancion/styles/detalle-cancion.css
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: rgb(137, 207, 216);
+    
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+    
+}
+header li{
+    margin: 15px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+
+header img{
+    width: 200px;
+}
+h1{
+    font-family: 'Antonio', sans-serif;
+    color: rgb(137, 207, 216);
+    font-size: 400%;
+}
+
+/*MAIN*/
+
+li{
+
+	list-style-type: none;
+}
+
+p{
+
+	text-align: center;
+}
+
+<<<<<<< HEAD:detalle cancion/styles/detalle cancion.css
+
+h1{
+    font-family: 'Antonio', sans-serif;
+    color: rgb(137, 207, 216);
+    font-size: 400%;}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 51px;
+    font-family: 'Cookie', cursive;
+    }
+
+article{
+    
+    background-color: rgb(205, 75, 51);
+}
+
+
+article p{
+
+
+	font-family: 'Arial';
+}
+
+.ca{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+   }
+
+
+.paulo h2{
+    text-align: center;
+    font-size: 70px;
+    justify-content: space-between;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.paulo h3{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cookie', cursive;
+	
+}
+.paulo img{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.paulo a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+	
+}
+.paulo ul{
+    text-align:left;
+    font-family: Arial;
+    font-size: 20px;
+
+}
+
+ 
+
+audio{
+
+margin-top:  10px;
+}
+
+
+
+.boton {
+
+
+	padding: 10px 30px;
+	background-color: black;
+	border-radius: 25px;
+
+	
+
+}
+
+.boton a{
+
+	color: white;
+	text-decoration: none;
+	font-family: 'Arial';
+}
+
+=======
+/*FOOTER*/
+>>>>>>> 682bb0df3ee2666bf79e84dc43cf725b00d290ec:detalle-cancion/styles/detalle-cancion.css
+
+footer{
+    
+    background-color: rgb(137, 207, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer li, footer p{
+    margin: 15px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 30px;
+    color: white;
+    list-style-type: none;
+}
+
+footer img{
+    width: 200px;
+}
