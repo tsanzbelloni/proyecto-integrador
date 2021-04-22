@@ -1,12 +1,10 @@
-<<<<<<< HEAD:detalle cancion/styles/detalle cancion.css
+
 
 *{
     box-sizing: border-box;
 }
 
-=======
-/*HEADER*/
->>>>>>> 682bb0df3ee2666bf79e84dc43cf725b00d290ec:detalle-cancion/styles/detalle-cancion.css
+
 
 header{
     display: flex;
@@ -151,9 +149,7 @@ margin-top:  10px;
 	font-family: 'Arial';
 }
 
-=======
-/*FOOTER*/
->>>>>>> 682bb0df3ee2666bf79e84dc43cf725b00d290ec:detalle-cancion/styles/detalle-cancion.css
+
 
 footer{
     
