@@ -114,6 +114,13 @@ h4{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+
+}
+
 /* FOOTER */
 
 footer{
