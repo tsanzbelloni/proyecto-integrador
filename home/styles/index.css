@@ -74,7 +74,7 @@ input {
 }
 
 ::placeholder{
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Antonio';
     font-size: 23px;
     color: rgb(137, 207, 216);
 }
@@ -89,6 +89,7 @@ main{
     flex-direction: column;
 }
 /* Generales */
+
 .ca{
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +99,7 @@ main{
 }
 
 /* TOP */
+
 .top h2{
     text-align: center;
     font-size: 60px;
