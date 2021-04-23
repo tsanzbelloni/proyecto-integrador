@@ -1,9 +1,6 @@
-
 *{
     box-sizing: border-box;
 }
-
-/*HEADER*/
 
 header{
     display: flex;
@@ -13,62 +10,27 @@ header{
     justify-content: space-between;
     padding: 0 20px;
     background-color: rgb(137, 207, 216);
+    
 }
-
-
- nav{
+nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     margin: 0 10px;
-    }
-
+    
+}
 header li{
     margin: 15px;
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
-    
 }
 header a{
-    color:white;
-    text-decoration: none;
+    color:white
 }
 
 header img{
-    width: 200px;
-
-}
-
-.buscar {
-    padding: 1px 10px;
-    background-color:white;
-    border-radius: 25px;
-    font-family: 'Antonio', sans-serif;
-    font-size: 23px;
-    color:  rgb(137, 207, 216);
-    
-
-}
-
-input {
-    border: 0;
-    padding: 8px 20px;
-    background-color: white;
-    
-  
-}
-
-::placeholder{
-    font-family: 'Antonio', sans-serif;
-    font-size: 23px;
-    color: rgb(137, 207, 216);
-}
-
-
-/*MAIN*/
-
-
+    width: 200px;}
 
 
 .container{
@@ -80,16 +42,38 @@ justify-content: space-around;
 
 }
 
+  a{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial';
+}
+
+.container img{
+
+    border-radius: 10px;
+}
+
+.container p{
+
+    font-size: 15pt;
+}
+
+
 li{
 
-	list-style-type: none;
+    list-style-type: none;
 }
 
 p{
 
-	text-align: center;
-    font-family: Arial;
+    text-align: center;
+
+    
 }
+
+
+
 
 
 h1{
@@ -102,9 +86,11 @@ article{
     background-color: rgb(205, 75, 51);
 }
 
+article p{
 
 
-/*FOOTER*/
+    font-family: 'Arial';
+}
 
 footer{
     
@@ -113,7 +99,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-footer li, footer p{
+footer li, p{
     margin: 15px;
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
