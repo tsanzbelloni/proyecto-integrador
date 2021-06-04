@@ -25,13 +25,13 @@ nav{
 }
 header li{
     margin: 15px;
-    font-family: 'Antonio', sans-serif;
-    font-size: 30px;
+     font-size: 30px;
     list-style-type: none;
 }
 header a{
     color:white;
     text-decoration: none;
+    font-family: 'Antonio', sans-serif;
     
     
 }
@@ -112,6 +112,13 @@ main img{
 
 h4{
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+
 }
 
 /* FOOTER */

@@ -57,7 +57,34 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
 }
+
+.buscar {
+    padding: 1px 10px;
+    background-color:white;
+    border-radius: 25px;
+    font-family: 'Antonio', sans-serif;
+    font-size: 23px;
+    color:  rgb(137, 207, 216);
+    
+
+}
+
+input {
+    border: 0;
+    padding: 8px 20px;
+    background-color: white;
+    
+  
+}
+
+::placeholder{
+    font-family: 'Antonio';
+    font-size: 23px;
+    color: rgb(137, 207, 216);
+}
+
 /* Generales */
+
 .ca{
     display: flex;
     flex-wrap: wrap;

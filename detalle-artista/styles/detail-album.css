@@ -91,6 +91,12 @@ main h2{
     text-decoration: underline;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
 /* FOOTER */
 
 footer{
