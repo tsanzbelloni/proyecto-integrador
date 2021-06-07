@@ -11,16 +11,21 @@ fetch(url)
     .then(function(data){
         
         console.log(data);
-        let Info=data.data
+        
+        let NombreAlbum=data.album.title
+        let title=data.title
+        let artista=data.artist.name
         let lista= document.querySelector('.lista')
-        let contenidoLista=''; // Poner el contenido a mostrar dentro de esta lista
+        let imagen= document.querySelector('.imagen')
+        let UrlAlbum=data.album.cover
+        imagen.src= UrlAlbum;
+        lista.innerHTML= `<ul>${title}</ul><ul>${artista}</ul><ul>${NombreAlbum}</ul>`
+        let Player= data.share
+        let audio= document.querySelector('.audio')
+        audio.src= Player
 
-        for(let i=0; i<Info.length; i++){
-            contenidoLista += `<li>${Info[i].data.title}</li>`
-        }
 
-        lista.innerHTML += contenidoLista 
-
+        
     })
 
     .catch(function(error){
