@@ -77,10 +77,6 @@ li{
 	list-style-type: none;
 }
 
-p{
-
-	text-align: center;
-}
 
 
 
@@ -99,12 +95,18 @@ h2{
 article{
     
     background-color: rgb(205, 75, 51);
+    
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
 
-article p{
+ul{
 
-
+    text-decoration: none;
 	font-family: 'Arial';
 }
 
@@ -133,13 +135,13 @@ article p{
 	
 }
 
-.foto a{
+.imagen a{
     color: black;
     text-decoration: none;
     font-weight: bolder;
 	
 }
-.foto ul{
+.imagen ul{
     text-align:left;
     font-family: Arial;
     font-size: 20px;
@@ -173,7 +175,7 @@ margin-top:  10px;
 	font-family: 'Arial';
 }
 
-
+/*Footer*/
 
 footer{
     
@@ -182,7 +184,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-footer li, footer p{
+footer li, p{
     margin: 15px;
     font-family: 'Antonio', sans-serif;
     font-size: 30px;
@@ -193,4 +195,3 @@ footer li, footer p{
 footer img{
     width: 200px;
 }
-
