@@ -1,8 +1,9 @@
 let queryString = location.search 
 let queryStringToObject = new URLSearchParams(queryString);
-let id = queryStringToObject.get('id');
+let id=3135556;
+//let id = queryStringToObject.get('id');
 
-let url="https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/3135556" 
+let url=`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}` 
 // https://cors-anywhere.herokuapp.com/corsdemo
 
 fetch(url)
