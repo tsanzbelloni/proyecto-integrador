@@ -29,10 +29,9 @@ function buscarYMostrarFavoritos(id){
         let info = data;
         let resultados = '';
         lista.innerHTML += `<article>
-                                    <h2>${info.title}</h2>
-                                    <img src="${info.album.cover}">
+        <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/track/${id}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
                             </article>` 
-    <iframe title="deezer-widget" src=`https://widget.deezer.com/widget/dark/track/${id}?tracklist=false` width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+    
     })
     .catch( function(e){
         console.log(e);
