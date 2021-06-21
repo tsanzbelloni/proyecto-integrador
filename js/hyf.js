@@ -3,7 +3,7 @@ window.addEventListener('load', function(){
 
 //Validación de formularios
 console.log('hola');
-alert('Hola');
+alert ('Hola');
 
 let formulario = document.querySelector('form');
 //let Busqueda = document.querySelector('[name=buscar]');
