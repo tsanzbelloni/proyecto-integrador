@@ -1,5 +1,6 @@
 let queryString = location.search 
 let queryStringToObject = new URLSearchParams(queryString);
+
 let id=3135556;
 //let id = queryStringToObject.get('id');
 
@@ -14,7 +15,7 @@ fetch(url)
     
     .then(function(data){
         
-        //console.log(data);
+        console.log(data);
         
         let NombreAlbum=data.album.title
         let title=data.title
