@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    display: block;
 }
 
 
@@ -72,29 +73,19 @@ input {
 
 /*MAIN*/
 
-li{
-
-	list-style-type: none;
-}
-
-
-
-
 h1{
     font-family: 'Antonio', sans-serif;
     color: rgb(137, 207, 216);
     font-size: 400%;}
 
-h2{
-    color: black;
-    text-align: center;
-    font-size: 51px;
-    font-family: 'Cookie', cursive;
-    }
 
 article{
     
+    
     background-color: rgb(205, 75, 51);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
@@ -102,78 +93,69 @@ a{
     text-decoration: none;
     color: black;
     font-family: Arial;
+    font-weight: bold;
+    
 }
 
 ul{
-
-    text-decoration: none;
-	font-family: 'Arial';
+    padding: 0;
 }
+
+.descripcion{
+    
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+
 
 .imagen{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-   }
-
-.imagen img{
-    width: 25%;
-    border-radius: 10px;
-    margin-left: 10px;
-
-}
-
-
-
-
-
- .head h2{
+    flex-direction: column;
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-bottom:30px ;
+    margin-left:30px ;
+    margin-right:30px ;
     
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Cookie', cursive;
-	
+       
 }
 
-.imagen a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-	
-}
-.imagen ul{
-    text-align:left;
-    font-family: Arial;
-    font-size: 20px;
+.acciones{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
- 
+.acciones button{
 
-audio{
-
-margin-top:  10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+   
+    
+    
 }
 
 
 
-.boton {
 
 
-	padding: 10px 30px;
-	background-color: black;
-	border-radius: 25px;
 
-	
 
-}
 
-.boton a{
 
-	color: white;
-	text-decoration: none;
-	font-family: 'Arial';
-}
 
 /*Footer*/
 

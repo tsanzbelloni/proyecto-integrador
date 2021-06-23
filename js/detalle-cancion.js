@@ -28,9 +28,9 @@ fetch(url)
         audio.src= Player   
             imagen.src= UrlAlbum;
               
-                lista.innerHTML= `<ul>${title}</ul>
-                                <ul>${artista}</ul>
-                                <ul><a  href="../detalle-album/detail-album.html?querystring${id}">${NombreAlbum}</ul>`
+                lista.innerHTML= `<ul><h2 >${title}<h2></ul>
+                                <ul><a  href="../detalle-artista/detail-artist.html?id${data.artist.id}">${artista}</ul>
+                                <ul><a  href="../detalle-album/detail-album.html?id${data.album.id}">${NombreAlbum}</ul>`
        
         
         })

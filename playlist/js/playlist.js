@@ -1,18 +1,13 @@
-//Lista de gifs favoritos
 
-//Recupero el storage.
 let recuperoStorage = localStorage.getItem('favoritos');
-//Obtengo el array 
+
 let favoritos = JSON.parse(recuperoStorage);
-//destino de los datos en el html
+
 let lista = document.querySelector('.lista');
 
 
-//Opcional avisar al usuario que no hay gifs en su lista.
-
-//Necesitamos recorrer el array de facoritos
 for (let i=0; i<favoritos.length; i++){
-    //buscarYMostrarFavoritos
+    
     buscarYMostrarFavoritos(favoritos[i]);
 }
 
