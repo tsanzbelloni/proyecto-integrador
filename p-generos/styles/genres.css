@@ -81,15 +81,32 @@ input {
 
 /* GENEROS */
 
-.generos ul {
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
 
-       
+ section{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}  
+
+ 
+.lista ul{
+
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+.lista li{
+
+padding: 10px;
+
+
+
+
+}
+
+
 
 /* FOOTER */
 
