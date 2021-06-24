@@ -2,7 +2,7 @@ let listaArtistas = document.querySelector('.Artistas');
 let ImgArtistas = document.querySelector('.Img1');
 
 let listaAlbumes = document.querySelector('.Albumes');
-let ImgAlbumes = document.querySelector('Img3');
+let ImgAlbumes = document.querySelector('.Img2');
 
 let listaCanciones = document.querySelector('.Canciones');
 let ImgCanciones = document.querySelector('.Img3');
@@ -26,8 +26,8 @@ fetch( url )
             let artists = data.artists.data[i].name
             console.log(artists);
 
-            listaArtistas.innerHTML += `<li>${artists}</li>`          
-        
+            listaArtistas.innerHTML += `<li>${artists}</li>` 
+                    
 
         //Albumes
 
@@ -38,12 +38,20 @@ fetch( url )
         
         //Canciones
 
-        let canciones = data.albums.data[i].title
+        let canciones = data.tracks.data[i].title
         console.log(canciones);
 
         listaCanciones.innerHTML += `<li>${canciones}</li>`
 
         }
+
+        //Imagenes
+
+        ImgArtistas.src = data.artists.data[1].picture
+        ImgAlbumes.src = data.artists.data[0].picture
+        ImgCanciones.src = data.artists.data[3].picture
+        
+        
 
     })
     .catch( function(error){
