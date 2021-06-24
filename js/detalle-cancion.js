@@ -27,13 +27,13 @@ fetch(url)
         let Player= data.preview
         let audio= document.querySelector('.audio')
         audio.src=Player   
-            imagen.src= UrlAlbum;
+            
               
                 lista.innerHTML= `<ul><h2 >${title}<h2></ul>
                                 <ul><a  href="../detalle-artista/detail-artist.html?q=${artista}">Artista:${artista}</ul>
                                 <ul><a  href="../detalle-album/detail-album.html?id${data.album.id}">Album:${NombreAlbum}</ul>`
 
-       
+       imagen.src= UrlAlbum;
         
         })
 
