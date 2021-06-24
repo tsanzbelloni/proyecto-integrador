@@ -6,6 +6,7 @@ let id=3135556;
 
 let url=`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}` 
 // https://cors-anywhere.herokuapp.com/corsdemo
+console.log(url);
 
 fetch(url)
     
@@ -25,12 +26,13 @@ fetch(url)
         let UrlAlbum=data.album.cover_medium
         let Player= data.preview
         let audio= document.querySelector('.audio')
-        audio.src= Player   
+        audio.src=Player   
             imagen.src= UrlAlbum;
               
                 lista.innerHTML= `<ul><h2 >${title}<h2></ul>
-                                <ul><a  href="../detalle-artista/detail-artist.html?id${data.artist.id}">${artista}</ul>
-                                <ul><a  href="../detalle-album/detail-album.html?id${data.album.id}">${NombreAlbum}</ul>`
+                                <ul><a  href="../detalle-artista/detail-artist.html?q=${artista}">Artista:${artista}</ul>
+                                <ul><a  href="../detalle-album/detail-album.html?id${data.album.id}">Album:${NombreAlbum}</ul>`
+
        
         
         })
@@ -46,8 +48,7 @@ let recuperoStorage = localStorage.getItem('favoritos');
 
 
 if(recuperoStorage != null){
-    favoritos = JSON.parse(recuperoStorage); // Estos pason sirven para recuperar lo que tengo en el storage y
-                                            // que no se pisen mis canciones si no que se sumen
+    favoritos = JSON.parse(recuperoStorage); 
 }
 
 
