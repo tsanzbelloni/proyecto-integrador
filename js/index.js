@@ -22,26 +22,29 @@ fetch( url )
         for(let i=0; i<5; i++){
 
         //Artistas
-
+            
+            let idArtistas = data.artists.data[i].id
             let artists = data.artists.data[i].name
             console.log(artists);
 
-            listaArtistas.innerHTML += `<li>${artists}</li>` 
+          listaArtistas.innerHTML +=  `<li><a href="../detalle-artista/detail-artist.html?id=${idArtistas}">${artists}<a></li>`
                     
 
         //Albumes
-
+        
+        let idAlbumes = data.albums.data[i].id
         let albumes = data.albums.data[i].title
         console.log(albumes);
 
-        listaAlbumes.innerHTML += `<li>${albumes}</li>`
+        listaAlbumes.innerHTML += `<li><a href="../detalle-album/detail-album.html?id=${idAlbumes}">${albumes}<a></li>`
         
         //Canciones
-
+        
+        let idcanciones = data.tracks.data[i].id
         let canciones = data.tracks.data[i].title
         console.log(canciones);
 
-        listaCanciones.innerHTML += `<li>${canciones}</li>`
+        listaCanciones.innerHTML += `<li> <a href="../detalle-cancion/detalle-cancion.html?=${idcanciones}">${canciones}<a></li>`
 
         }
 
