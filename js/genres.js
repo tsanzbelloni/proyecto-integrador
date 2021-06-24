@@ -16,7 +16,7 @@ fetch(url)
         for (let i=0; i<generos.length; i++){
             
            lista.innerHTML+=`<li>${generos[i].name}</li>
-                            <img src="${generos[i].picture_small}" alt="Imagen de ${generos[i].name}">`
+                            <img src="${generos[i].picture_medium}" alt="Imagen de ${generos[i].name}">`
         }
     })
 
@@ -24,3 +24,4 @@ fetch(url)
         console.log(error);
 
    })
+   

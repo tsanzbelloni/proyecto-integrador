@@ -81,23 +81,26 @@ input {
 
 /* GENEROS */
 
-
- section{
-    
-    display:flex;
-    flex-direction: row;
+main{
     flex-wrap: wrap;
-
-}  
-
- 
-.lista ul{
-
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(205, 75, 51);
 }
 
-.lista li{
+ul{
+    color: black;
+    font-size: 200%;
+     font-family: 'Staatliches', cursive;
+}
+
+
+.lista img{
+    border-radius: 50%;
+}
+ 
+
+ li{
 
 padding: 10px;
 
