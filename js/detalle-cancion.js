@@ -1,7 +1,7 @@
 let queryString = location.search 
 let queryStringToObject = new URLSearchParams(queryString);
 
-//let id=3135556;
+
 let id = queryStringToObject.get('id');
 
 let url=`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}` 
@@ -27,13 +27,14 @@ fetch(url)
         let Player= data.preview
         let audio= document.querySelector('.audio')
         audio.src=Player   
+        imagen.src= UrlAlbum;
             
               
                 lista.innerHTML= `<ul><h2 >${title}<h2></ul>
                                 <ul><a  href="../detalle-artista/detail-artist.html?q=${artista}">Artista:${artista}</ul>
                                 <ul><a  href="../detalle-album/detail-album.html?id${data.album.id}">Album:${NombreAlbum}</ul>`
 
-       imagen.src= UrlAlbum;
+       
         
         })
 
@@ -53,7 +54,7 @@ if(recuperoStorage != null){
 
 
 if(favoritos.includes(id)){
-    document.querySelector('.fav').innerText = "Quitar de playlist"; //fijarme si esta el id en mi array para cambiar el texto o no
+    document.querySelector('.fav').innerText = "Quitar de playlist"; 
 }
 
 
