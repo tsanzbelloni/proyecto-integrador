@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-})
+
 let queryString = location.search;
 let queryStringToObject = new URLSearchParams(queryString);
 
@@ -47,7 +47,7 @@ fetch(url_album)
     })
 
 
-
+})
 
 
 
