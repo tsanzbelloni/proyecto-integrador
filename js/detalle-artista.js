@@ -1,3 +1,6 @@
+window.addEventListener("load", function(){
+
+
 let queryString= location.search
 let QSobject= new URLSearchParams(queryString)
 
@@ -15,6 +18,8 @@ fetch(url)
     .then(function(data){
 
         console.log(data);
+        
+
 
 
     })
@@ -27,3 +32,4 @@ fetch(url)
     })
 
 
+})
