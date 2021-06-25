@@ -15,7 +15,7 @@ fetch(url)
         
         for (let i=0; i<generos.length; i++){
             
-           lista.innerHTML+=`<li>${generos[i].name}</li>
+           lista.innerHTML+=`<li><a href="../p-detalle-generos/detail-genres.html?id=${generos[i].id}">${generos[i].name}</li>
                             <img src="${generos[i].picture_medium}" alt="Imagen de ${generos[i].name}">`
         }
     })
