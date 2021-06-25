@@ -28,11 +28,7 @@ fetch(url)
         let generoA = data.genres.data[0].name;
         let fechaA = data.release_date;
         
-        let cancionesDet = document.querySelectorAll('.albums');
-            for(let i=0; i<cancionesDet.length; i++){
-           cancionesDet[i].innerHTML=`${arrayInfo.tracks.data[i].title}`;
-            }; 
-            
+       
 //llamo a los datos
                 albumsD += `<div>
                                 <h2>Album: ${tituloA}</h2> 
