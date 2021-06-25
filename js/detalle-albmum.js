@@ -27,6 +27,15 @@ fetch(url)
         let artistaA = data.artist.name;
         let generoA = data.genres.data[0].name;
         let fechaA = data.release_date;
+        let cancionesA = data.tracks.data[0].title;
+        cancionesA.innerHTML += `<ul><li>${cancionesA[0]}</li></ul>`
+        
+        //for(let i=0; i<cancionesA.length; i++){
+            //cancionesA.innerHTML += `<div class="albums">
+                                     //   <ul><li>${cancionesA[i]}</li></ul>
+                                     //</div> `
+        //}
+
         
        
 //llamo a los datos
@@ -46,6 +55,14 @@ fetch(url)
                                             <li>${fechaA}</li>
                                         </ul>
                                  </article>
+                                 <article>
+                                 <h4>Canciones:</h4>
+                                     <ul>
+                                         <li>${cancionesA}</li>
+                                     </ul>
+                              </article>
+
+
                                  
                             </div> `
                     albumsContain.innerHTML += albumsD       
