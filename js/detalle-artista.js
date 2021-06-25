@@ -1,11 +1,11 @@
 window.addEventListener("load", function(){
 
+   
+let queryString= location.search;
+let queryStringToObject = new URLSearchParams(queryString);
 
-let queryString= location.search
-let QSobject= new URLSearchParams(queryString)
 
-
-let id=QSobject.get('q')
+let id = queryStringToObject.get("id");
 
 let url= `https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}`;
 

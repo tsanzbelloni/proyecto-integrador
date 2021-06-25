@@ -22,7 +22,9 @@ fetch(url)
         for(let i=0; i<data.data.length; i++){
             let artistaNombre = data.data[i].name;
             let artistaImg = data.data[i].picture_medium;
+            let artistaTitle = data.data[i].title;
             
+
             listaCont += `<div class= "artistas" id="genresx">
                             <h3>Artistas:</h3>
                                 <div class= "lista">
