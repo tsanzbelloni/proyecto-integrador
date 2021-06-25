@@ -18,15 +18,15 @@ fetch( url )
         for(let i=0; i<10; i++){
 
         let cancion = data.data[i].title
-        let artista = data.data[i].artist.name
-        let album = data.data[i].album.title
+        let artists = data.data[i].artist.name
+        let albumes = data.data[i].album.title
 
-        let idCancion = data.data[i].id
-        let idArtista = data.data[i].artist.id
-        let idAlbum = data.data[i].album.id
+        let idcanciones = data.data[i].id
+        let idartistas = data.data[i].artist.id
+        let idAlbumes = data.data[i].album.id
 
 
-        Resultados.innerHTML += `<li><a herf="${cancion} de ${artista} en ${album}<li>`
+        Resultados.innerHTML += `<li><a href="../detalle-cancion/detalle-cancion.html?q=id=${idcanciones}">${cancion}<a> de <a href="../detalle-artista/detail-artist.html?q=${artists}">${artists}<a> en <a href="../detalle-album/detail-album.html?q=id=${idAlbumes}">${albumes}<a><li>`
 
 
         }

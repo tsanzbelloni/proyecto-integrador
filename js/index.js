@@ -44,7 +44,7 @@ fetch( url )
         let canciones = data.tracks.data[i].title
         console.log(canciones);
 
-        listaCanciones.innerHTML += `<li> <a href="../detalle-cancion/detalle-cancion.html?q=id=${idcanciones}">${canciones}<a></li>`
+        listaCanciones.innerHTML += `<li> <a href="../detalle-cancion/detalle-cancion.html?=d=${idcanciones}">${canciones}<a></li>`
 
         }
 
