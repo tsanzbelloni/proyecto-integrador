@@ -52,10 +52,17 @@ h1{
     color: rgb(137, 207, 216);
     font-size: 400%;
 }
-main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+ul{
+    color:black;
+    font-size: 200%;
+    font-family: 'Antonio', sans-serif;
+
+}
+
+h2 {
+    font-family: 'Antonio', sans-serif;
+    color: rgb(137, 207, 216);
+    font-size: 200%;
 }
 
 .buscar {
@@ -81,121 +88,6 @@ input {
     font-family: 'Antonio';
     font-size: 23px;
     color: rgb(137, 207, 216);
-}
-
-/* Generales */
-
-.ca{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-
-/* TOP */
-.top h2{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Antonio', sans-serif;;
-}
-.top h3{
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Antonio', sans-serif;
-}
-.top{
-    background-color: black;
-}
-.top a{
-    color: white;
-
-}
-.top img{
-    width: 25%;
-}
-
-.top ul{
-    text-align:left;
-    font-family: Arial;
-    font-size: 40px;
-
-}
-/* Paulo */
-
-.paulo{
-    background-color: rgb(221, 202, 186)
-
-}
-.paulo h2{
-    text-align: center;
-    font-size: 70px;
-    
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-.paulo h3{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Cookie', cursive;
-
-}
-.paulo img{
-    width: 25%;
-
-}
-.paulo a{
-    color: rgb(252, 53, 53);
-
-}
-.paulo ul{
-    text-align:left;
-    font-family: Arial;
-    font-size: 40px;
-
-}
-
-/* Posty */
-
-.posty{
-    background-color: rgb(205, 75, 51);
-
-}
-.posty h2{
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Carter One', cursive;
-}
-.posty h3{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Karantina', cursive;
-
-}
-.posty a{
-    color:black;
-
-}
-.posty ul{
-    text-align:left;
-    font-family: Arial;
-    font-size: 40px;
-}
-/* GENEROS */
-
-.generos ul {
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-/* subtitulos */
-
-.rel {
-    font-family: Verdana;
-    color: rgb(137, 207, 216);
-    font-size: 25px;
 }
 
 /* FOOTER */
