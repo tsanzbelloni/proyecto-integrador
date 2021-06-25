@@ -31,7 +31,7 @@ fetch(url)
 
       let imagenAD = data.picture_medium;
       let nombreAD = data.name;
-      
+
       //let cancionesAD = data.tracks;
       //let topCinco= document.querySelectorAll(".lista");
        // for (let i=0; i<topCinco.length; i++){
@@ -40,7 +40,7 @@ fetch(url)
 
             
       detalleArtistaCont += `<section class="lista">
-                                    <h2><a href="../detalle-artista/detail-artist.html">${nombreAD}</a></h2>
+                                    <h2>${nombreAD}</h2>
                                     <ul>
                                         <li>><a href="https://api.deezer.com/artist/10583405/top?limit=50${id}"></a>
                                     
