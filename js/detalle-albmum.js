@@ -6,11 +6,11 @@ let queryStringToObject = new URLSearchParams(queryString);
 
 let id = queryStringToObject.get('id');
 
-let url_album = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`;
+let url=`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`
 console.log(id);
 
 
-fetch(url_album)
+fetch(url)
     .then( function(response){
         return response.json();
     })
@@ -27,7 +27,7 @@ fetch(url_album)
        
         let tituloA = data.title;
         let imagenA = data.cover_big;
-        let artistaA = albums.data.artist.name;
+        let artistaA = data.artist.name;
         let generoA = data.genres.data[0].name;
         let fechaA = data.release_date;
 
@@ -48,12 +48,7 @@ fetch(url_album)
                                             <li>${fechaA}</li>
                                         </ul>
                                  </article>
-                                 <article>
-                                    <h4>Canciones:</h4>
-                                        <ol>
-                                            <li>${info[i].tracks}</li>
-                                        </ol>
-                                 </article> 
+                                 
                             </div> `
                     albumsContain.innerHTML += albums        
                       
