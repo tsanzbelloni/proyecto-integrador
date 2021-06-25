@@ -1,5 +1,5 @@
 window.addEventListener("load", function(){
-
+    
 
 
 let queryString = location.search
@@ -15,7 +15,7 @@ fetch(url)
     })
 
     .then(function(data){
-        console.log(data.data);
+        console.log(data);
 
         let lista = document.querySelector("#genresx");
         let listaCont = "";
