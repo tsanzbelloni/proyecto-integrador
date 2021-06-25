@@ -27,7 +27,7 @@ fetch( url )
             let artists = data.artists.data[i].name
             console.log(artists);
 
-          listaArtistas.innerHTML +=  `<li><a href="../detalle-artista/detail-artist.html?q=id=${idArtistas}">${artists}<a></li>`
+          listaArtistas.innerHTML +=  `<li><a href="../detalle-artista/detail-artist.html?q=${artists}">${artists}<a></li>`
                     
 
         //Albumes
@@ -44,7 +44,7 @@ fetch( url )
         let canciones = data.tracks.data[i].title
         console.log(canciones);
 
-        listaCanciones.innerHTML += `<li> <a href="../detalle-cancion/detalle-cancion.html?q=${idcanciones}">${canciones}<a></li>`
+        listaCanciones.innerHTML += `<li> <a href="../detalle-cancion/detalle-cancion.html?q=id=${idcanciones}">${canciones}<a></li>`
 
         }
 

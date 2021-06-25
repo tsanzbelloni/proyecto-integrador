@@ -1,17 +1,15 @@
 window.addEventListener("load", function(){
 
-
+console.log("hola");
 let queryString = location.search;
 let queryStringToObject = new URLSearchParams(queryString);
+let id = queryStringToObject.get("id");
 
-let id=3135556;
-//let id = queryStringToObject.get ("id");
-
-let url_album = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`;
-
+let url=`https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/${id}`;
+console.log(id);
 
 
-fetch(url_album)
+fetch(url)
     .then( function(response){
         return response.json();
     })
@@ -24,24 +22,37 @@ fetch(url_album)
         //agregamos una variable para poder llenar de contenido
         let albums = "";
     
-        //Me quedo solo los datos que me sirven y cambio el contenido
-        let title = document.querySelector(".title");
-        title.innerText = `${arrayInfo.title}`;
-        let image = document.querySelector("img");
-        image.src = `${arrayInfo.cover_big}`;
-        let artist = document.querySelector(".artist");
-        artist.innerText = `${arrayInfo.artist.name}`;
-        let genero = document.querySelector(".genres");
-        genero.innerText = `${arrayInfo.genres.data[0].name}`;
-        let fecha = document.querySelector(".release_date");
-        fecha.innerText = `${arrayInfo.release_date}`;
-        let canciones = document.querySelector(".tracks");
-        for (let i=0; i<canciones.length; i++){ //bucle para recorrer las canciones del array
-            canciones[i].innerHTML = `${arrayInfo.tracks.data[i].title}`;
-        };
+        //Me quedo solo los datos que me sirven 
+       
+        let tituloA = data.title;
+        let imagenA = data.cover_big;
+        let artistaA = data.artist.name;
+        let generoA = data.genres.data[0].name;
+        let fechaA = data.release_date;
 
+
+                albums += `<div>
+                                <h2>Album: ${tituloA}</h2>
+                                    <img src="${imagenA}" alt="">
+                                     <h3>Nombre: ${artistaA}</h3>
+                                 <article>
+                                    <h4>Genero:</h4>
+                                        <ul>
+                                            <li>${generoA}</li>
+                                        </ul>
+                                 </article>       
+                                 <article>
+                                    <h4>Fecha de Lanzamiento:</h4>
+                                        <ul>
+                                            <li>${fechaA}</li>
+                                        </ul>
+                                 </article>
+                                 
+                            </div> `
+                    albumsContain.innerHTML += albums        
+                      
         
-    })
+})
     .catch( function(error){
         console.log(error);
     })
